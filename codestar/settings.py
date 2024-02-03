@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_summernote',
     'blog'
 ]
 
@@ -91,7 +92,7 @@ DATABASES = {
 }
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://8000-mattthughes-blog-scfaia1xbq8.ws-eu107.gitpod.io",
+    "https://*8000-mattthughes-blog-scfaia1xbq8.ws-eu107.gitpod.io",
     "https://*.herokuapp.com"
 ]
 
